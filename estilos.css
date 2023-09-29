@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+/* Estilos para el encabezado con sombras y efectos */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #522687;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+header:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 36px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #522687;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #f9b000;
+}
+
+.header-description {
+  font-size: 10px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Estilos para la sección del carro */
+.carro {
+  margin-right: 50px; /* Espacio de margen derecho deseado */
+}
+
+/* Estilos para la imagen del carro */
+.carro img {
+  width: 70px; /* Ancho deseado para la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+main {
+  text-align: center;
+}
+
+.mujeres img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+  background-color: #f9b000;
+  color: #522687;
+  padding: 30px 0;
+}
+
+.footer-columna {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-columna h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.redes-sociales a img {
+  width: 35px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
